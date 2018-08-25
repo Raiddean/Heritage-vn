@@ -350,5 +350,6 @@
          p2 "Dude, you just had to read the message at #welcome."
          hide image "peon"
          ns "But I did read that! It was just a weird message asking for my name! I don't understand this! Not at all!"
-         r "After you finish sending that message, you notice your username now has a different color, and not a really pleasant one. A brown browner than the.. Brownest depths? I don’t know, point is, you’ve become what these people call a “stinko”. Your new brown username acts as a brand of suck, signifying your eternal stench. Hopefully you can rid yourself of your putrid funk, as you wish to redeem yourself."
+         r "After you finish sending that message, you notice your username now has a different color, and not a really pleasant one. A brown browner than the.. Brownest depths? I don’t know, point is, you’ve become what these people call a “stinko”."
+         r "Your new brown username acts as a brand of suck, signifying your eternal stench. Hopefully you can rid yourself of your putrid funk, as you wish to redeem yourself."
          return
