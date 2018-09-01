@@ -122,7 +122,8 @@
     $ aleph_relationship = 0
  #yee whoever chooses lucas gonna get booty raped by tyrone in prison
 
-    default training = False
+    default potato_fight = False
+    default bill_fight = False
     default tex_fight = False
     default in_joke = False
 
