@@ -1,7 +1,9 @@
 label start:
     call prologue from _call_prologue
     call chapter1 from _call_chapter1
+    call chapter2 
     return
+
 label splashscreen:
 
     $ renpy.movie_cutscene('jahintro.mpeg')
