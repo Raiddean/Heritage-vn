@@ -42,12 +42,19 @@
    define fightcadetex = Character("Tex Western", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadealeph = Character("Aleph Null",what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeluke = Character("Light speed lucas", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
-   define fightcadeboomer = Character("Bill", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define fightcadeboomer = Character("BiLL", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcademahjong = Character("Majongles", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadepotato = Character("PotatoBoih", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeplayer = Character("[povname]", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeplayerchat = Character("[povname]", color="FF0000")#fightcade normal chat color
    define lagmasterfightcade = Character("Lagmaster69", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define fightcadeboomerchat = Character("BiLL", color="FF0000")#fightcade normal chat color
+   define fightcadealephchat = Character("Aleph Null", color="FF0000")#fightcade normal chat color
+   define fightcadetexchat = Character("Tex Western", color="FF0000")#fightcade normal chat color
+   define fightcadeplayerchat = Character("[povname]", color="FF0000")#fightcade normal chat color
+   define fightcademajongchat = Character("Majongles", color="FF0000")#fightcade normal chat color
+   define fightcadepotatochat = Character("PotatoBoih", color="FF0000")#fightcade normal chat color
+   define nss = Character("[povname]", color="E74C3C")#stinko tournament survivor color
 
 
    #backgrounds
@@ -126,8 +133,18 @@
     default bill_fight = False
     default tex_fight = False
     default in_joke = False
+    default majongles_fight = False
+    default zarythe_fight = False
 
+    default main_DIO = False
+    default main_Pol = False
+    default main_Hol = False
+    default main_Devo = False
+    default main_Rubber = False
+    default main_Mariah = False
+    default main_Ice = False
 
+    define main = DynamicCharacter("[main]")
 
 ################################################################################
 
