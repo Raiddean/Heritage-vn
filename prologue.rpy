@@ -1,4 +1,18 @@
+#    Heritage for the future visual novel, game based off of hftf community
+#    Copyright (C) <2018>  <Devboys>
 
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
    #characters
@@ -12,11 +26,11 @@
    define hoho = Character("HoHo Horse", color="663300")#stinko color
    define Sp = Character("SploogieMcNoodle", color="00FFFF")#tourney host color
    define p = Character("PotatoBoih", color="F206FF")#tourney host color
-   define m = Character("Majongles", color="74138C")#big ping gay color
+   define m = Character("Majongles", color="00FF00")#regular color
    define uz = Character("Ultrazoop", color="FFBE28")#mad man twitch sub color
    define So = Character("SouI", color="FFE920")#tourney winner color
    define do = Character("Doog", color="F206FF")#knowledge boy color
-   define kr = Character("KarnazZ", color="006633")#helper color
+   define kr = Character("KarnazZ", color="00FF00")#regular
    define neet = Character("Royshark", color="663300")#stinko color
    define ms = Character("MisterSystem", color="F206FF")#knowledge boy color
    define ba = Character("BAEN", color="00FF00")#regular color
@@ -32,30 +46,46 @@
    define boi = Character("Light speed lucas", color="663300")#stinko color
    define retard = Character("Stoned Illama", color="663300")#stinko color
    define raid = Character("Raiddean", color="006633")#helper color
-   define min = Character("Mineotaur", color="00FF00")#regular color
+   define mino = Character("Mineotaur", color="00FF00")#regular color
    define edgy = Character("Edge la Edge", color="00FF00")#regular color
    define dan = Character("Dannythebalu", color="00FF00")#regular color
-   define al = Character("Alsrb", color="FFFFFF")#normal color
+   define al = Character("Alsrb", color="696969")#nonscreech color
    define lm = Character("Lagmaster69", color="FFFFFF")#normal color
    define brain = Character("[povname]'s brain", color="FFFFFF")#normal color
+   define chode = Character("Chode", color="006633")#helper color
+   define marshkip = Character("Marshkip", color="FFFFFF")#normal color
+   define mosin = Character("Mo.Sin", color="FF0000")#stinko tourney winner color
+   define pokerwithbob = Character("aerialace", color="696969")##nonscreech color
+   define redpop = Character("RedSodaPop", color="663300")#stinko color
+   define camper = Character("Camperstrike", color="F206FF")#knowledge boy color
+   define Garrem = Character("Garrem", color="663300")#stinko color
+   define Gekc = Character("Gekc", color="663300")#stinko color
+   define isotio = Character("IsoIto", color="663300")#stinko color
+   define Exfalch = Character("ExFalchion", color="CC0000")#good boy color
+   define gripdip = Character("Iamagripper", color="663300")#stinko color
+   define dragonheart = Character("Dragonheart", color="663300")#stinko color
+   define stinkoacure = Character("Acute Angle", color="663300")#stinko color
+   define Manolito = Character("Manolito", color="663300")#stinko color
+   define iamdarkendufrick = Character("Dorfwing", color="696969")#nonscreech color
+   define sovietjoelbootleg = Character("Swagskhelethor", color="FFFFFF")#normal color
    define fightcadesoui = Character("Soui", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadetex = Character("Tex Western", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadealeph = Character("Aleph Null",what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeluke = Character("Light speed lucas", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
-   define fightcadeboomer = Character("BiLL", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define fightcadeboomer = Character("Bill", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcademahjong = Character("Majongles", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadepotato = Character("PotatoBoih", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeplayer = Character("[povname]", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
    define fightcadeplayerchat = Character("[povname]", color="FF0000")#fightcade normal chat color
    define lagmasterfightcade = Character("Lagmaster69", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
-   define fightcadeboomerchat = Character("BiLL", color="FF0000")#fightcade normal chat color
-   define fightcadealephchat = Character("Aleph Null", color="FF0000")#fightcade normal chat color
-   define fightcadetexchat = Character("Tex Western", color="FF0000")#fightcade normal chat color
-   define fightcadeplayerchat = Character("[povname]", color="FF0000")#fightcade normal chat color
-   define fightcademajongchat = Character("Majongles", color="FF0000")#fightcade normal chat color
-   define fightcadepotatochat = Character("PotatoBoih", color="FF0000")#fightcade normal chat color
-   define nss = Character("[povname]", color="E74C3C")#stinko tournament survivor color
-
+   define fightcadesploogie = Character("SploogieMcNoodle", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define fightcadezar = Character("Zarythe", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define amazingname = Character("MargeSimpsonUchiha",  color="FFFFFF")#normal color
+   define fightcademarge = Character("MargeSimpsonUchiha", what_font="PressStart2P.ttf", color="FF9900")#fightcade color and font
+   define fightcadeisotio = Character("IsoIto", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define fightcadered = Character("RedSodaPop", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define TotallyNotSkynaloz = Character("TotallyNotSkynaloz", what_font="PressStart2P.ttf",color="FF9900")#fightcade color and font
+   define sw = Character("[povname]", color="FF0000")#stinko tourney winner color
 
    #backgrounds
 
@@ -66,12 +96,13 @@
    image aw = "awakned.png"
    image side monkey = "le monkey.png"
    image week1 = "week1.jpg"
+   image week2 = "week2.png"
    image protagroom = "protag_room.jpg"
    image twitter = "twitter.png"
    image general = "discord_bg.png"
    image fightcade = "fightcade.png"
-   image announce = "announcement.png"
-   image general2 = "discord_bg2.png"
+   image announce = "announcements.png"
+   image general2 = "discord_bg.PNG"
    image hftfgeneral = "heritage_general.png"
    image titecard = "titlecard.png"
    image black = "Pure Black.png"
@@ -91,12 +122,31 @@
    image gayclock = "gayclock.png"
    image wew = "wew.png"
    image annon = "announcements.png"
-   image open = "windowopen.png"
-   image close = "windowclose.png"
+   image open = "windowopen.jpg"
+   image close = "windowclose.jpg"
    image challenge = "challonge.png"
    image choosing = "choosingmatch.png"
    image select = "selectback.png"
    image selected = "charactershitselected.png"
+   image week2desktop = "week2desktop.png"
+   image khanhell = "khanhell.png"
+   image choosingdio = "dioselect1.png"
+   image choosendio = "dioselect2.png"
+   image choosekak = "kakselect1.png"
+   image choosenkak = "kakselect2.png"
+   image youirl = "youirl.png"
+   image kanji = "kanjimenu.png"
+   image chooserubber = "rubberselect1"
+   image choosenrubber = "rubberselect2"
+   image choosedevo = "devoselect1.png"
+   image choosendevo = "devoselect2.png"
+   image chooseice = "iceselect1.png"
+   image choosenice = "iceselect2.png"
+   image choosebpol = "blackpolselectt1.png"
+   image choosenbpol = "blackpolselectt2.png"
+   image choosemariah = "mariahselect1.png"
+   image choosenmariah = "mariahselect2.png"
+
 
    #character pictures
    image lucas = "lucas.PNG"
@@ -108,6 +158,7 @@
    image mahjong = "majongles.png"
    image ms = "mistersystem.png"
    image peon = "peon2.PNG"
+   image doogalt = "rock-insta.jpg"
 
 
 
@@ -128,14 +179,13 @@
     $ lucas_relationship = 0  #lucas is a joke route please dont track us down FBI
     $ aleph_relationship = 0
  #yee whoever chooses lucas gonna get booty raped by tyrone in prison
-
+    default aleph_fight = False
     default potato_fight = False
     default bill_fight = False
     default tex_fight = False
-    default in_joke = False
     default majongles_fight = False
-    default zarythe_fight = False
-
+    default in_joke = False
+    default training = False
     default main_DIO = False
     default main_Pol = False
     default main_Hol = False
@@ -143,8 +193,12 @@
     default main_Rubber = False
     default main_Mariah = False
     default main_Ice = False
+    define zarythe_fight = False
+
 
     define main = DynamicCharacter("[main]")
+
+
 
 ################################################################################
 
@@ -213,8 +267,8 @@
          show image "potato"
          p "As I was saying, the bnb requires a negative edge into a one frame link where you have to tandem and pushblock into a 5c, then hyper hop into a rekka and stand crash into 6a, then immediately do a 214aa…"
          p "Got it!?"
-         p "Huh!? What? Oh. Wow, what a sensory overload, this girl seems like she knows what she’s doing! I felt like I was falling asleep!"
-         p "Bravo, Bravo! How did you figure this out?"
+         r "Huh!? What? Oh. Wow, what a sensory overload, this girl seems like she knows what she’s doing! I felt like I was falling asleep!"
+         n "Bravo, Bravo! How did you figure this out?"
          p "What? That's just a basic combo. Any stinko could do this."
          n "A… Stinko?"
          p "You are new to this place?"
@@ -265,7 +319,7 @@
          n "Hi, I’m [povname], are you okay? You seem to be having a rough day, miss. There’s no need to say such rude things!"
          boomerusa "Shut up."
          boomerusa "Do you even know what this channel is for?"
-         R le monkey "She proceeds to send a string of multiple potentially racist emoji, namely monkeys."
+         r "She proceeds to send a string of multiple potentially racist emoji, namely monkeys."
          boomerusa "Whatever"
          boomerusa "I’m BiLL, and I run this channel."
          boomerusa "Read the rules if you want to suggest any new emotes."
@@ -277,7 +331,8 @@
 
          scene image "jojomemehell"
          play music "Wheeler Walker Jr. - Sit On My Face.ogg"
-         r "Finally! A channel that piques your interest! A place where you can finally be in peace! A meme channel! But, it’s a channel just for JoJo memes, so you can’t understand any of the jokes here. Despite that, you find yourself scrolling through the channel for quite a long time. After looking through a lot of images of a man at a table, you spot what it seems to be a fight."
+         r "Finally! A channel that piques your interest! A place where you can finally be in peace! A meme channel! But, it’s a channel just for JoJo memes, so you can’t understand any of the jokes here."
+         r "Despite that, you find yourself scrolling through the channel for quite a long time. After looking through a lot of images of a man at a table, you spot what it seems to be a fight."
          show image "tex"
          tx "For the last time, you libshits have got to grow a brain and realize that this is not a shitposting server. What’s your Fightcade account?"
          hoho "My Fightcade account? It’s, uh…"
